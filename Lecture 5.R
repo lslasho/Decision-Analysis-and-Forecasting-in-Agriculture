@@ -28,6 +28,6 @@ ggplot(data = stakeholder, aes(x = Experience,
   # Show all names of overlapped values
   geom_text_repel(box.padding = 0.3, max.overlaps = Inf, size = 3) +
   annotate("text", label = "Potential core experts",
-           x = 4.5, y = 3.2, size = 5, color = "grey48") +
+           x = 4.5, y = 3.2, size = 5, color = "red") +
   annotate("text", label = "Resource persons",
            x = 4.5, y = 0.25, size = 5, color = "grey48")
